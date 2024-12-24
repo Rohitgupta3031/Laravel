@@ -1,0 +1,408 @@
+<div class="page-body">
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="row">
+                <div class="col">
+                    <div class="page-header-left">
+                        <h3>Dropdown</h3>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html" data-bs-original-title="" title=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-home">
+                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                    </svg></a></li>
+                            <li class="breadcrumb-item">Base</li>
+                            <li class="breadcrumb-item active">Dropdown</li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- Bookmark Start-->
+                <div class="col">
+                    <div class="bookmark pull-right">
+                        <ul>
+                            <li><a href="#" data-bs-toggle="tooltip" title="" data-bs-original-title="Calender"
+                                    aria-label="Calender"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg></a></li>
+                            <li><a href="#" data-bs-toggle="tooltip" title="" data-bs-original-title="Mail"
+                                    aria-label="Mail"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg></a></li>
+                            <li><a href="#" data-bs-toggle="tooltip" title="" data-bs-original-title="Chat"
+                                    aria-label="Chat"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-message-square">
+                                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                                    </svg></a></li>
+                            <li><a href="javascript:void(0)" data-bs-original-title="" title=""><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-star bookmark-search">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                        </polygon>
+                                    </svg></a>
+                                <form class="form-inline search-form">
+                                    <div class="form-group form-control-search">
+                                        <input type="text" placeholder="Search.." data-bs-original-title="" title="">
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Bookmark Ends-->
+            </div>
+        </div>
+    </div>
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Basic Dropdown</h5>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="dropdown">
+                            <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                title="">Dropdown Button <span><i
+                                        class="icofont icofont-arrow-down"></i></span></button>
+                            <div class="dropdown-content"><a href="#" data-bs-original-title="" title="">Action</a><a
+                                    href="#" data-bs-original-title="" title="">Another Action</a><a href="#"
+                                    data-bs-original-title="" title="">Something Else Here</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Basic Color Dropdown</h5>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                    title="">Action <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-secondary" type="button" data-bs-original-title=""
+                                    title="">Action <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-success" type="button" data-bs-original-title=""
+                                    title="">Action <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-info" type="button" data-bs-original-title="" title="">Action
+                                    <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-warning txt-dark" type="button" data-bs-original-title=""
+                                    title="">Action <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-danger" type="button" data-bs-original-title=""
+                                    title="">Action <span><i class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Dropdown Split Button</h5>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="btn-group">
+                            <button class="btn btn-primary" type="button" data-bs-original-title="" title="">Primary
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-primary" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" type="button" data-bs-original-title="" title="">Secondary
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-secondary" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-success" type="button" data-bs-original-title="" title="">Success
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-success" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-info" type="button" data-bs-original-title="" title="">Info
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-info" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-warning" type="button" data-bs-original-title="" title="">Warning
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-warning" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-danger" type="button" data-bs-original-title="" title="">Danger
+                                Button</button>
+                            <div class="dropdown separated-btn">
+                                <button class="btn btn-danger" type="button" data-bs-original-title="" title=""><i
+                                        class="icofont icofont-arrow-down"></i></button>
+                                <div class="dropdown-content digits"><a href="#" data-bs-original-title="" title="">Link
+                                        1</a><a href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                        data-bs-original-title="" title="">Link 3</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Rounded Dropdown</h5>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-primary btn-round" type="button" data-bs-original-title=""
+                                    title="">Primary Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-secondary btn-round" type="button" data-bs-original-title=""
+                                    title="">Secondary Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-success btn-round" type="button" data-bs-original-title=""
+                                    title="">Success Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-info btn-round" type="button" data-bs-original-title=""
+                                    title="">Info Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-warning txt-dark btn-round" type="button"
+                                    data-bs-original-title="" title="">Warning Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="btn-group mb-0">
+                                <button class="dropbtn btn-danger btn-round" type="button" data-bs-original-title=""
+                                    title="">Danger Button <span><i
+                                            class="icofont icofont-arrow-down"></i></span></button>
+                                <div class="dropdown-content"><a href="#" data-bs-original-title=""
+                                        title="">Action</a><a href="#" data-bs-original-title="" title="">Another
+                                        Action</a><a href="#" data-bs-original-title="" title="">Something Else Here</a>
+                                    <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                        title="">Separated Link </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Dropdown With Divider</h5><span>Use a class <code>.dropdown-divider</code></span>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="dropdown">
+                            <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                title="">Dropdown Button <span><i
+                                        class="icofont icofont-arrow-down"></i></span></button>
+                            <div class="dropdown-content"><a href="#" data-bs-original-title="" title="">Link 1</a><a
+                                    href="#" data-bs-original-title="" title="">Link 2</a><a href="#"
+                                    data-bs-original-title="" title="">Link 3</a>
+                                <div class="dropdown-divider"></div><a href="#" data-bs-original-title=""
+                                    title="">Another Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Dropdown With Header</h5><span>Use a class <code>.dropdown-header</code></span>
+                    </div>
+                    <div class="card-body dropdown-basic">
+                        <div class="dropdown">
+                            <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                title="">Dropdown Button <span><i
+                                        class="icofont icofont-arrow-down"></i></span></button>
+                            <div class="dropdown-content">
+                                <h5 class="dropdown-header">Dropdown header</h5><a href="#" data-bs-original-title=""
+                                    title="">Link 1</a><a href="#" data-bs-original-title="" title="">Link 2</a>
+                                <h5 class="dropdown-header">Dropdown header</h5><a href="#" data-bs-original-title=""
+                                    title="">Another Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Dropdown With Disable</h5><span>Use a class <code>.dropdown-disabled</code></span>
+                    </div>
+                    <div class="card-body dropup-basic">
+                        <div class="dropup">
+                            <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                title="">Dropdown Button <span><i class="icofont icofont-arrow-up"></i></span></button>
+                            <div class="dropup-content"><a href="#" data-bs-original-title="" title="">Normal</a><a
+                                    class="active" href="#" data-bs-original-title="" title="">Active</a><a
+                                    class="disabled" href="#" data-bs-original-title="" title="">Disabled</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-xl-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Dropdown With DropUp</h5><span>Use a class <code>.drop-up</code></span>
+                    </div>
+                    <div class="card-body dropup-basic">
+                        <div class="dropup">
+                            <button class="dropbtn btn-primary" type="button" data-bs-original-title=""
+                                title="">Dropdown Button <span><i class="icofont icofont-arrow-up"></i></span></button>
+                            <div class="dropup-content"><a href="#" data-bs-original-title="" title="">Link 1</a><a
+                                    href="#" data-bs-original-title="" title="">Link 2</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container-fluid Ends-->
+</div>
